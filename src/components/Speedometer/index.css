@@ -1,0 +1,60 @@
+/* Write your CSS here */
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0px;
+}
+.speedometer-bg-container {
+  background-color: #07080c;
+  color: #ffffff;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: 'Roboto';
+}
+.speedometer-heading {
+  font-size: 30px;
+  font-weight: 500;
+  font-style: italic;
+}
+.speedometer-image {
+  width: 50%;
+}
+.speedometer-speed {
+  font-weight: 600;
+}
+.speedometer-description {
+  color: #94a3b8;
+  font-size: 12px;
+  margin: 30px 0;
+}
+.btn-accelerate {
+  height: 30px;
+  border: 0;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  background-color: #0b69ff;
+  color: #cbd5e1;
+  margin-right: 20px;
+}
+.btn-break {
+  height: 30px;
+  border: 0;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  background-color: #00000000;
+  color: #94a3b8;
+  border: #94a3b8 solid 3px;
+  margin-left: 20px;
+}
+
+@media (min-width: 768px) {
+  .speedometer-description {
+    font-size: 14px;
+  }
+}
